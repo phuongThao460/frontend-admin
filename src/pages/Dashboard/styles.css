@@ -1,0 +1,76 @@
+.modal-dialog {
+  max-width: 839px !important;
+}
+.react-bootstrap-table {
+  background-color: white;
+}
+.btn-edit,
+.btn-delete,
+.btn-view,
+.btn-add {
+  outline: none;
+  border: 0;
+  margin-right: 11px;
+  padding: 5px;
+  border-radius: 5px;
+  padding: 4px 14px;
+}
+.primary-color {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  -webkit-appearance: none;
+}
+.primary-color::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+.primary-color::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+.btn-add {
+  background-color: #3ea4ed;
+  color: white;
+  padding: 6px 14px;
+}
+.btn-add span {
+  margin-left: 8px;
+}
+.btn-delete {
+  background-color: red;
+  color: white;
+}
+.btn-edit {
+  background-color: green;
+  color: #fff;
+}
+.btn-view {
+  background-color: transparent;
+  padding: 4px 14px;
+  border: 1px solid #cdcdcd;
+}
+.hearder {
+  position: relative;
+}
+.hearder .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.add-new{
+  margin-bottom: 20x;
+}
+.add-new .name {
+  padding: 4px;
+  border-radius: 5px;
+  margin-right: 41px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.name-phone{
+  display: flex;
+}
